@@ -1,0 +1,135 @@
+.scores {
+    text-align: center;
+    margin-bottom: 100px;
+}
+.start {
+    text-align: center;
+}
+.buttonForStart {
+    background-color: brown;
+    width: 200px;
+    height: 30px;
+}
+.buttonForStart:hover {
+    transition: 3s;
+    background-color: rgb(131, 9, 9);
+}
+body{
+    background-color: gray;
+    width: 100vw;
+    height: 500px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.level1 {
+    display: block;
+    border: 1mm ridge black;
+    width: auto;
+    height: auto;
+    padding: 5px;
+    text-align: center;
+
+}
+.level1Button {
+    background-color: brown;
+    margin-left: 10px;
+}
+.level1Button:hover {
+    transition-duration: 3s;
+    background-color: rgb(131, 9, 9);
+}
+
+
+.level2 {
+    display: block;
+    border: 1mm ridge black;
+    width: auto;
+    height: auto;
+    padding: 5px;
+    text-align: center;
+}
+.level2Button {
+    background-color: brown;
+    margin-left: 10px;
+}
+.level2Button:hover {
+    transition-duration: 3s;
+    background-color: rgb(131, 9, 9);
+}
+
+
+.level3 {
+    display: block;
+    border: 1mm ridge black;
+    width: auto;
+    height: auto;
+    padding: 5px;
+    text-align: center;
+}
+.level3Button {
+    background-color: brown;
+    margin-left: 10px;
+}
+.level3Button:hover {
+    transition-duration: 3s;
+    background-color: rgb(131, 9, 9);
+}
+
+
+.level4 {
+    display: block;
+    border: 1mm ridge black;
+    text-align: center;
+    width: auto;
+    height: auto;
+    padding: 5px;
+    text-align: center;
+}
+.button {
+    width: 150px;
+    height: 150px;
+    background-color: brown;
+}
+.button:hover {
+    transition: 1s;
+    background-color: rgb(145, 10, 10);
+}
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 500px;
+}
+
+
+.level5 {
+    display: block;
+    border: 1mm ridge black;
+    width: auto;
+    height: auto;
+    padding: 5px;
+    text-align: center;
+}
+.buttons2 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 1000px;
+}
+.button2 {
+    width: 150px;
+    height: 150px;
+    background-color: brown;
+}
+.button2:hover {
+    transition: 1s;
+    background-color: rgb(145, 10, 10);
+}
+
+
+.none {
+    display: none;
+}
